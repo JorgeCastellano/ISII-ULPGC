@@ -10,6 +10,13 @@ Shift alt flecha: desplazar selección.
 Alt Enter: corregir errores.
 Alt Insert: generación automática de código.
 
-new Date(): tiempo actual.
 
-now.get Time()  (ejemplo milisegundos 1 enero 1900)
+//--------------------------------------//
+//Ejemplo Tiempo
+
+Date birthday = new Date(89,11,4);
+Date now = new Date ();
+
+long ageInMilliseconds = now.get Time()
+
+//(ejemplo milisegundos 1 enero 1900)
