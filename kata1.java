@@ -1,11 +1,23 @@
 package kata1;
 
 public class Person {
-    private String name;
-    private String birthday;
-    private int age;
+    private final String name;
+    private final Date birthday;
+    
+    public Person(Date birthdayo, String nameo){
+        this.name = nameo;
+        this.birthday = birthdayo;
+    }
+    
+    public String getName() {
+        return name;
+    }
+    
+    public Date getBirthday() {
+        return birthday;
+    }
         
-    public static void main(String[] args) {
-
+    public int getAge() {
+        return 0;
     }
 }
