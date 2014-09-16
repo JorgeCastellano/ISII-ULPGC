@@ -1,4 +1,4 @@
-package cata1;
+package kata1;
 
 public class Person {
     private String name;
