@@ -1,6 +1,6 @@
-package persson;
+package person;
 
-public class Persson {
+public class Person {
     private String name;
     private String birthday;
     private int age;
